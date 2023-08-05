@@ -1,0 +1,97 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 2px;
+  }
+  
+  main {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #DDE6ED;
+    border-radius: 10px;
+  }
+  
+  /* Header styles */
+  #title {
+    text-align: center;
+    color: #001C30;
+  }
+  
+  /* Image and caption styles */
+  #img-div {
+    text-align: center;
+  }
+  
+  #image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 60px auto;
+    object-fit: cover;
+    padding-bottom: 0;
+  }
+  
+  #img-caption {
+    font-style: italic;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: -50px;
+    color: #0D1282;
+    font-weight: bold;
+  }
+  
+  #tribute-info h2 {
+    text-align: center;
+    margin-top:60px;
+    margin-bottom: -20px;
+  }
+  /* Timeline styles */
+  .timeline {
+    margin-top: 70px;
+  }
+  
+  .timeline h3 {
+    text-align: center;
+  }
+  
+  .timeline ul {
+    list-style-type: square;
+    margin-top: -16px;
+    display: block;
+  }
+  
+  .timeline li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+  }
+  
+  .timeline pre {
+    text-align: center;
+    font-family: inherit;
+    color: #0D1282;
+    font-weight: bold;
+  }
+  
+  /* Link styles */
+  .correct {
+    text-align: center;
+  }
+  #tribute-link {
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  #tribute-link:hover {
+    text-decoration: underline;
+  }
+  
