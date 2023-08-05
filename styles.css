@@ -96,23 +96,21 @@ body {
   }
 
   /* Media query for small screens */
-@media screen and (max-width: 600px) {
+    @media screen and (max-width: 600px) {
+    main {
+      padding: 10px; /* Adjust the padding for small screens */
+    }
+  
     #img-caption {
-      width: 100%;
-      margin-top: 10px;
-      margin-bottom: 30px;
+      margin-top: 20px; /* Increase the margin-top for more space */
     }
   
     .timeline ul {
-      list-style-type: disc;
-      margin-top: -8px;
+      margin-top: -4px; /* Reduce spacing between timeline items */
     }
   
     .timeline li {
-      margin-bottom: 4px;
-    }
-    pre {
-        width: fit-content;
+      margin-bottom: 6px; /* Reduce margin-bottom for timeline items */
     }
   }
   
