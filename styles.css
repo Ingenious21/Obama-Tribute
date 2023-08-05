@@ -94,4 +94,22 @@ body {
   #tribute-link:hover {
     text-decoration: underline;
   }
+
+  /* Media query for small screens */
+@media screen and (max-width: 600px) {
+    #img-caption {
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+  
+    .timeline ul {
+      list-style-type: disc;
+      margin-top: -8px;
+    }
+  
+    .timeline li {
+      margin-bottom: 4px;
+    }
+  }
   
